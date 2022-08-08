@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="webpage/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="webpage/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>Nirvana</title>
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background: #000000;">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+                <image width="50px" src="/webpage/img/logo_transparent.png" />
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="/" class="nav-item nav-link active me-sm-5">Home</a>
+
+                    <form class="d-flex nav-item me-sm-5">
+                        <div class="input-group">
+                            <input type="text" id="searchbar" class="form-control" placeholder="Search">
+                            <button type="button" onclick="search_song()" class="btn btn-secondary"><i class="bi-search"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navigation bar code end -->
+
+    <div id="main-content" class="container-fluid"></div>
+
+    </div>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <script src="/webpage/js/jquery-2.1.4.min.js"></script>
+    <script src="/webpage/js/bootstrap.js"></script>
+    <script src="/webpage/js/script.js"></script>
+    <script src="/webpage/js/ajax-utils.js"></script>
+    <script src="https://apis.google.com/js/api.js"></script>
+</body>
+
+</html>

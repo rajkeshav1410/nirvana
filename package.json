@@ -1,0 +1,24 @@
+{
+    "name": "nirvana",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "devStart": "nodemon server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rajkeshav1410/nirvana.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/rajkeshav1410/nirvana/issues"
+    },
+    "homepage": "https://github.com/rajkeshav1410/nirvana#readme",
+    "dependencies": {
+        "express": "^4.18.1",
+        "nodemon": "^2.0.19"
+    }
+}

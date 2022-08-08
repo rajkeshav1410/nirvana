@@ -1,0 +1,142 @@
+:root {
+    --primary-accent: #DA0037;
+    --background-color: #000000;
+}
+
+body {
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #000000;
+    /* font-family: 'Oxygen', sans-serif; */
+}
+
+.navbar {
+    background-color: var(--background-color);
+}
+
+.navbar-toggler span {
+    color: white;
+}
+
+.navbar-toggler span:hover {
+    color: var(--primary-accent);
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler:hover {
+    color: #00000000;
+}
+
+.navbar .dropdown .dropdown-menu {
+    background-color: var(--background-color);
+    gap: 0.25rem;
+    padding: 0.25rem;
+    border-radius: 5px;
+}
+
+.navbar .dropdown .dropdown-menu a:hover {
+    color: white;
+    background-color: var(--primary-accent);
+    border-radius: 5px;
+}
+
+.dropdown .dropdown-menu {
+    transition: all 0.5s cubic-bezier(0, 0.3, 0.51, 1);
+    opacity: 0;
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+}
+
+.dropdown .dropdown-menu.show {
+    transition: max-height 0.4s cubic-bezier(0.4, 0, 1, 0.57);
+    opacity: 1;
+    max-height: 300px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-weight: 100;
+    color: white;
+    transition: all 0.4s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: var(--primary-accent);
+}
+
+.btn-secondary {
+    background-color: var(--primary-accent);
+}
+
+#search-table tr td {
+    background: #000000;
+}
+
+#search-table {
+    width: 45%;
+}
+
+#main-content {
+    margin: 0;
+    padding: 0;
+}
+
+#song-page {
+    padding: 40px 56px 0;
+}
+
+#pills-tabContent {
+    overflow-y: scroll;
+    height: 70vh;
+}
+
+#search-table {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 80vh;
+}
+
+#song-artwork {
+    height: 75vh;
+}
+
+.nav-pills .nav-link {
+    color: rgb(105, 105, 105);
+    border-bottom: 2px solid #444444 !important;
+    border-radius: 0px !important;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #00000000;
+    border-bottom: 2px solid white !important;
+    border-radius: 0px !important;
+}
+
+.list-group-item {
+    color: white;
+    background-color: #00000000;
+    border-color: #444444;
+}
+
+.list-group-item.active,
+.list-group-item.active:hover {
+    background-color: #8e8e8e57;
+    border-color: #444444;
+}
+
+.list-group-item:hover {
+    color: white;
+    background-color: var(--primary-accent);
+    border-color: var(--primary-accent);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.next-song-artist {
+    color: rgb(190, 190, 190);
+}
